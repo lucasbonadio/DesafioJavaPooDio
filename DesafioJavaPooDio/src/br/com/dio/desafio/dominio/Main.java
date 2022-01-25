@@ -32,28 +32,32 @@ public class Main {
 
         Dev devCamila = new Dev();
         devCamila.setNome("Camila");
+        devCamila.setEstado("Sao Paulo");
         devCamila.inscreverBootcamp(bootcamp);
         System.out.println("Conteudos Inscritos Camila:" + devCamila.getConteudosInscritos());
         devCamila.progredir();
         devCamila.progredir();
         System.out.println("-");
         System.out.println("Conteudos Inscritos Camila:" + devCamila.getConteudosInscritos());
-        System.out.println("Conteudos Conclu√≠dos Camila:" + devCamila.getConteudosConcluidos());
+        System.out.println("Conteudos Concluidos Camila:" + devCamila.getConteudosConcluidos());
         System.out.println("XP:" + devCamila.calcularTotalXp());
+        System.out.println("Estado: " + devCamila.getEstado());
 
         System.out.println("-------");
 
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
+        devJoao.setEstado("Goias");
         devJoao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteudos Inscritos Jo√£o:" + devJoao.getConteudosInscritos());
+        System.out.println("Conteudos Inscritos Jo„o:" + devJoao.getConteudosInscritos());
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
         System.out.println("-");
-        System.out.println("Conteudos Inscritos Jo√£o:" + devJoao.getConteudosInscritos());
-        System.out.println("Conteudos Concluidos Jo√£o:" + devJoao.getConteudosConcluidos());
+        System.out.println("Conteudos Inscritos Jo„o:" + devJoao.getConteudosInscritos());
+        System.out.println("Conteudos Concluidos Jo„o:" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devJoao.calcularTotalXp());
+        System.out.println("Estado: " + devJoao.getEstado());
 
     }
 
